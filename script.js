@@ -2,7 +2,7 @@ let humanScore = 0;
 let computerScore = 0;
 
 function getComputerChoice(){
-    let randomNumber = Math.floor(Math.random()*10000) % 3;
+    let randomNumber = Math.floor(Math.random()*10000) % 3; //High enough number that the probability of each is around 33.3%
     if (randomNumber === 1){
         return `rock`;
     }
